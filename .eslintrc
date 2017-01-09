@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "plugins": ["compat"],
+  "rules": {
+    "compat/compat": 2
+  },
+  "settings": {
+    "polyfills": ["fetch"]
+  }
+}
