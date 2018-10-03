@@ -5,7 +5,7 @@
   },
   "plugins": ["compat"],
   "rules": {
-    "compat/compat": 2
+    "compat/compat": "error"
   },
   "settings": {
     "polyfills": ["fetch"]
