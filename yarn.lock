@@ -251,16 +251,15 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-compat@^2.6.0-0:
-  version "2.6.0-0"
-  resolved "https://registry.npmjs.org/eslint-plugin-compat/-/eslint-plugin-compat-2.6.0-0.tgz#3f52052f064a707302a107feb03acd4e0a1c2d90"
-  integrity sha512-MPfMWTSyiB0td7Uw/Jxi+1AWI43QfQXi4vkkBzckTThLqqa9e7uXnZRe6zEPsLzuUOdk9YxNEvUjHGE4dSB7gw==
+eslint-plugin-compat@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.6.0.tgz#3a1292dd59c46710a81bb78c532561ecc4adf70f"
+  integrity sha512-uA1KA3X0nQNfW30M36ROTeUbENg2g4UG9hVhQH5iaR1fdEwOUABy0AwI0rQVEX2oa3poDZ7SvT25wLw2WWdJzA==
   dependencies:
     "@babel/runtime" "^7.1.2"
     browserslist "^4.1.2"
     caniuse-db "^1.0.30000889"
     mdn-browser-compat-data "^0.0.52"
-    requireindex "^1.2.0"
 
 eslint-scope@^4.0.0:
   version "4.0.0"
@@ -776,11 +775,6 @@ require-uncached@^1.0.3:
   dependencies:
     caller-path "^0.1.0"
     resolve-from "^1.0.0"
-
-requireindex@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
-  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
 
 resolve-from@^1.0.0:
   version "1.0.1"
