@@ -4,8 +4,5 @@ fetch('google.com')
 // Instantiate PaymentRequest
 const req = new PaymentRequest()
 
-
 // Instantiate IntersectionObserver
-const observer = new IntersectionObserver(() => {
-
-})
+const observer = new IntersectionObserver(() => {})
