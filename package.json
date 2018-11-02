@@ -2,7 +2,7 @@
   "name": "eslint-plugin-compat-demo",
   "version": "1.0.0",
   "dependencies": {
-    "eslint": "^5.7.0",
+    "eslint": "^5.8.0",
     "eslint-plugin-compat": "^2.6.2"
   },
   "browserslist": [
