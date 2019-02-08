@@ -1,8 +1,3 @@
 {
-  "extends": ["config:base"],
-  "assignees": ["vikr01"],
-  "rangeStrategy": "bump",
-  "dependencies": {
-    "rangeStrategy": "bump"
-  }
+  "extends": ["bliss"]
 }
