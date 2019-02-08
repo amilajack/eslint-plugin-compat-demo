@@ -99,14 +99,14 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-browserslist@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.1.2.tgz#632feb46d1cbdd6bb1a6eb660eff68f2345ae7e7"
-  integrity sha512-docXmVcYth9AiW5183dEe2IxnbmpXF4jiM6efGBVRAli/iDSS894Svvjenrv5NPqAJ4dEJULmT4MSvmLG9qoYg==
+browserslist@^4.3.4:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.4.1.tgz#42e828954b6b29a7a53e352277be429478a69062"
+  integrity sha512-pEBxEXg7JwaakBXjATYw/D1YZh4QUSCX/Mnd/wnqSRPPSi1U39iDhDoKGoBUcraKdxDlrYqJxSI5nNvD+dWP2A==
   dependencies:
-    caniuse-lite "^1.0.30000888"
-    electron-to-chromium "^1.3.73"
-    node-releases "^1.0.0-alpha.12"
+    caniuse-lite "^1.0.30000929"
+    electron-to-chromium "^1.3.103"
+    node-releases "^1.1.3"
 
 callsites@^3.0.0:
   version "3.0.0"
@@ -118,10 +118,10 @@ caniuse-db@^1.0.30000889:
   resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000889.tgz#f6177927a0c56bbd56ff70f11e4bb28be3889052"
   integrity sha512-Rf9Sbm2KS7s6Rk8iNeI5zJdquqctXBXAfy/bb1tCCYRds5RAaHNdyt2D4z8TSRToDkYsAwiSBV/bFHR+4IgTiw==
 
-caniuse-lite@^1.0.30000888:
-  version "1.0.30000889"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30000889.tgz#53e266c83e725ad3bd2e4a3ea76d5031a8aa4c3e"
-  integrity sha512-MFxcQ6x/LEEoaIhO7Zdb7Eg8YyNONN+WBnS5ERJ0li2yRw51+i4xXUNxnLaveTb/4ZoJqsWKEmlomhG2pYzlQA==
+caniuse-lite@^1.0.30000929:
+  version "1.0.30000935"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000935.tgz#d1b59df00b46f4921bb84a8a34c1d172b346df59"
+  integrity sha512-1Y2uJ5y56qDt3jsDTdBHL1OqiImzjoQcBG6Yl3Qizq8mcc2SgCFpi+ZwLLqkztYnk9l87IYqRlNBnPSOTbFkXQ==
 
 chalk@^2.0.0, chalk@^2.1.0:
   version "2.4.1"
@@ -214,25 +214,25 @@ doctrine@^2.1.0:
   dependencies:
     esutils "^2.0.2"
 
-electron-to-chromium@^1.3.73:
-  version "1.3.73"
-  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.73.tgz#aa67787067d58cc3920089368b3b8d6fe0fc12f6"
-  integrity sha512-6PIg7v9zRoVGh6EheRF8h6Plti+3Yo/qtHobS4/Htyt53DNHmKKGFqSae1AIk0k1S4gCQvt7I2WgpbuZNcDY+g==
+electron-to-chromium@^1.3.103:
+  version "1.3.113"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.113.tgz#b1ccf619df7295aea17bc6951dc689632629e4a9"
+  integrity sha512-De+lPAxEcpxvqPTyZAXELNpRZXABRxf+uL/rSykstQhzj/B0l1150G/ExIIxKc16lI89Hgz81J0BHAcbTqK49g==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-compat@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.6.2.tgz#5e813d7c46939ba84f525fb34ba1ccd31e7791d7"
-  integrity sha512-1b6x7bwbs65LEzZITItdkrt2Ua7o6M1zlkcm2PV+FmVrGipwv+hd/kA07vZXFOKvLWK3BxOfGLBvqnZu+N0vrg==
+eslint-plugin-compat@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-compat/-/eslint-plugin-compat-2.6.3.tgz#2606644110ab1150bec23a45034367ddbea1f1e9"
+  integrity sha512-zog1HSEViOhzXNpP6a5T2SjX02A0EYkbYPWemwKupXyOY2hvV4+QbsWlYVzO7Vi36r+zzPwF19T3kaY1x+MrDg==
   dependencies:
     "@babel/runtime" "^7.1.2"
-    browserslist "^4.1.2"
+    browserslist "^4.3.4"
     caniuse-db "^1.0.30000889"
-    mdn-browser-compat-data "^0.0.53"
+    mdn-browser-compat-data "^0.0.54"
 
 eslint-scope@^4.0.0:
   version "4.0.0"
@@ -562,10 +562,10 @@ lodash@^4.17.10, lodash@^4.17.5:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
 
-mdn-browser-compat-data@^0.0.53:
-  version "0.0.53"
-  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.53.tgz#ee67cf4f3bd93fddcef285ad9b5cdb0786ccf031"
-  integrity sha512-HQLa/4yE0jNXDgHsFUEuwIobKc+UZvJEFbbmI+w8NsrcrwpxBnS/Jv6+VAxL4Nt1oy8jz97SzAyvZSj1v5fxjQ==
+mdn-browser-compat-data@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/mdn-browser-compat-data/-/mdn-browser-compat-data-0.0.54.tgz#e5a5a9b84b2d52a8ae553294055853584fa96be0"
+  integrity sha512-eu0g/tlNB3+kqy1O7bzq84OR67Kg1HxRJ6v16P1rjcDsBL7RhJik7aXnzNvuaijNaR1rDana9IO5Lo1b3E4Qxg==
   dependencies:
     extend "3.0.2"
 
@@ -613,10 +613,10 @@ nice-try@^1.0.4:
   resolved "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-node-releases@^1.0.0-alpha.12:
-  version "1.0.0-alpha.12"
-  resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.0.0-alpha.12.tgz#32e461b879ea76ac674e511d9832cf29da345268"
-  integrity sha512-VPB4rTPqpVyWKBHbSa4YPFme3+8WHsOSpvbp0Mfj0bWsC8TEjt4HQrLl1hsBDELlp1nB4lflSgSuGTYiuyaP7Q==
+node-releases@^1.1.3:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.7.tgz#b09a10394d0ed8f7778f72bb861dde68b146303b"
+  integrity sha512-bKdrwaqJUPHqlCzDD7so/R+Nk0jGv9a11ZhLrD9f6i947qGLrGAhU3OxRENa19QQmwzGy/g6zCDEuLGDO8HPvA==
   dependencies:
     semver "^5.3.0"
 
