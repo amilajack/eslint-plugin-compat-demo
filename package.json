@@ -7,7 +7,8 @@
     "eslint-plugin-compat": "^2.7.0"
   },
   "browserslist": [
-    "safari 9"
+    "safari 9",
+    "ie 9"
   ],
   "scripts": {
     "lint": "eslint .; exit 0",
