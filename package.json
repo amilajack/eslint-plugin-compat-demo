@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^5.14.0",
+    "eslint": "^5.14.1",
     "eslint-plugin-compat": "^2.7.0"
   },
   "browserslist": [
