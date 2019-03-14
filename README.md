@@ -15,6 +15,3 @@ cd eslint-plugin-compat-demo
 npm install
 npm run lint
 ```
-
-## Editor Configuration
-See the [ESLint Editor Config Section](http://eslint.org/docs/user-guide/integrations)
